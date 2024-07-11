@@ -1,0 +1,35 @@
+
+.spac{
+    margin-left: 15px;
+}
+.navbar-custom{
+  background-color: #007bff; /*Navbar background color*/
+  /* color: white; */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-toggler-icon
+{ 
+  color: white; /* Text and anchor color */
+}
+.navbar-custom .dropdown-item {
+    color: lightgray; /* Text and anchor color for dropdown menu */
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover{
+    color: black; /* Hover color */
+}
+.skater-body{
+  background-color: gray;
+}
+.heading{
+  text-align: center;
+  margin-top: 15%;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif
+}
+.start-year{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
