@@ -21,6 +21,7 @@
 }
 .skater-body{
   background-color: gray;
+  
 }
 .heading{
   text-align: center;
@@ -40,4 +41,40 @@
 .carousel-item img{
   max-width: 100%;
   height: auto;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: lightgrey;
+  margin-top: 5%;
+  text-align:center;
+}
+.cool-stuff{
+  margin-top: 10%;
+  background-color:  red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 5px 10px;
+  max-width: 200px;
+  text-align: center;
+  display: block;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.laptop-accessories{
+  max-width: 400px;
+  height: auto;
+}
+.logo{
+  max-width: 300px;
+  margin: auto;
+  margin-left: 65%;
+}
+.para2{
+  margin-top: 2%;
 }
