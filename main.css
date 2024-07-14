@@ -45,18 +45,21 @@
 .center{
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: lightgrey;
-  margin-top: 5%;
+  margin-top: 20px;
   text-align:center;
 }
-.cool-stuff{
+.img-container1{
+  display: flex;
+}
+.cool-stuff
+{
   margin-top: 10%;
   background-color:  red;
   color: white;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 10px;
   padding: 5px 10px;
@@ -65,16 +68,122 @@
   display: block;
   margin-left: 40%;
   margin-right: 40%;
+  margin-bottom: 10%;
+}
+.para{
+  margin-top: 5px;
 }
 .laptop-accessories{
   max-width: 400px;
   height: auto;
+  margin-left: 20px;
 }
 .logo{
   max-width: 300px;
-  margin: auto;
-  margin-left: 65%;
+  height: auto;
+  margin-left: 20px;
 }
-.para2{
-  margin-top: 2%;
+.logo1,
+.flogo,
+.ilogo,
+.xlogo
+{
+  max-width: 155px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer{
+  background-color: lavenderblush ;
+}
+.img-container2{
+  display: flex;
+  margin-top: 5%;
+}
+.lap{
+  max-width: 300px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 5%;
+}
+.mobile{
+  max-width: 300px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 5%;
+}
+.access{
+  max-width: 300px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 5%;
+}
+.btn-container  {
+  display: flex;
+}
+.laptop
+{
+  margin-top: 15px;
+  background-color:  red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 5px 10px;
+  max-width: 300px;
+  text-align: center;
+  display: block;
+  margin-left: 10%;
+  margin-right: 25px;  
+}
+.phone
+{
+  margin-top: 15px;
+  background-color:  red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 5px 10px;
+  max-width: 300px;
+  text-align: center;
+  display: block;
+  margin-left: 20%;
+  margin-right: 40px;  
+}
+.accessories{
+  margin-top: 15px;
+  background-color:  red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 5px 10px;
+  max-width: 300px;
+  text-align: center;
+  display: block;
+  margin-left: 20%;
+  margin-right: 40px;
+}
+.footer-1{
+  background-color: black;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.follow{
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
 }
