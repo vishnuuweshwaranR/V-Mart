@@ -83,10 +83,7 @@
   height: auto;
   margin-left: 20px;
 }
-.logo1,
-.flogo,
-.ilogo,
-.xlogo
+.logo1
 {
   max-width: 155px;
   height: auto;
@@ -94,8 +91,15 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.x-logo
+{
+  max-width: 90px;
+  height: 100px;
+  text-align: center;
+}
 .footer{
   background-color: lavenderblush ;
+  display: block;
 }
 .img-container2{
   display: flex;
@@ -187,3 +191,25 @@
   margin-bottom: 15px;
   margin-right: 15px;
 }
+.fa-3x{
+  color: blue;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+.fa-4x{
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+.connect{
+  color: white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+  
